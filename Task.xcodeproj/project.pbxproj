@@ -64,19 +64,43 @@
 		5A7816B62BDA43D0008F1BBD /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				5A7816D52BDA5E4D008F1BBD /* Controllers */,
+				5A7816D42BDA5E3B008F1BBD /* Views */,
+				5A7816D32BDA5E34008F1BBD /* Model */,
+				5A7816C52BDA43D1008F1BBD /* Info.plist */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		5A7816D32BDA5E34008F1BBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A7816CF2BDA4531008F1BBD /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A7816D42BDA5E3B008F1BBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A7816C22BDA43D1008F1BBD /* LaunchScreen.storyboard */,
+				5A7816CC2BDA44E2008F1BBD /* TaskTableViewCell.xib */,
+				5A7816BD2BDA43D0008F1BBD /* Main.storyboard */,
+				5A7816C02BDA43D1008F1BBD /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A7816D52BDA5E4D008F1BBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				5A7816B72BDA43D0008F1BBD /* AppDelegate.swift */,
 				5A7816B92BDA43D0008F1BBD /* SceneDelegate.swift */,
 				5A7816BB2BDA43D0008F1BBD /* ViewController.swift */,
-				5A7816BD2BDA43D0008F1BBD /* Main.storyboard */,
-				5A7816C02BDA43D1008F1BBD /* Assets.xcassets */,
-				5A7816C22BDA43D1008F1BBD /* LaunchScreen.storyboard */,
-				5A7816C52BDA43D1008F1BBD /* Info.plist */,
 				5A7816CB2BDA44E2008F1BBD /* TaskTableViewCell.swift */,
-				5A7816CC2BDA44E2008F1BBD /* TaskTableViewCell.xib */,
-				5A7816CF2BDA4531008F1BBD /* Post.swift */,
 				5A7816D12BDA50D5008F1BBD /* DetailsViewController.swift */,
 			);
-			path = Task;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
